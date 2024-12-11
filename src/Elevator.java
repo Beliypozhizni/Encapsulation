@@ -1,7 +1,7 @@
 public class Elevator {
-    int minFloor;
-    int maxFloor;
-    int currentFloor;
+    private final int minFloor;
+    private final int maxFloor;
+    private int currentFloor;
 
     public Elevator(int minFloor, int maxFloor) {
         this.minFloor = minFloor;
